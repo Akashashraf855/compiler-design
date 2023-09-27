@@ -1,0 +1,49 @@
+answer1
+
+//token categorized
+#include<iostream>
+using namespace std;
+int main(){
+    
+    
+    int NUM;
+    cout << "enter a num:"<<endl;
+    cin>>NUM;
+    
+    if (NUM=NUM){
+        cout << "numeric num"<<endl;
+    }
+    else{
+        cout<<"not numeric num"<<endl;
+    }
+    
+    return 0;
+}
+
+answer 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    a = 5;
+    b = 10;
+
+   
+    cout << "a + b = " << (a + b) << endl;
+
+  
+    cout << "a - b = " << (a - b) << endl;
+
+  
+    cout << "a * b = " << (a * b) << endl;
+
+  
+    cout << "a / b = " << (a / b) << endl;
+
+  
+    cout << "a % b = " << (a % b) << endl;
+
+    return 0;
+}
